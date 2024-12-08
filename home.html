@@ -1,0 +1,13 @@
+ {% extends 'tem.html'%}
+{%block content%}
+<div class='b'>
+    <form method='POST' action='/predict'>
+    <label for="image"><h1><b>enter the image name</b></h1></label>
+    <br><input type='text' id='image' name="image"  placeholder='   enter the image namge' required>
+    <br>
+    <button><b>submit</b></button>
+    <br>
+    </form>
+    </div>
+    <h1>{{ post }}</h1>
+    {%endblock%}
