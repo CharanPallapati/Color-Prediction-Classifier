@@ -6,5 +6,9 @@ The core functionality of the classifier involves reading and processing the inp
 output:
 
  ![Screenshot 2024-12-08 182709](https://github.com/user-attachments/assets/7afc82a3-1862-41bd-89bb-dd44aa327602)
+
+ 
 ![Screenshot 2024-12-08 182730](https://github.com/user-attachments/assets/2ae402b0-efd1-4e9f-a3f7-f58e58fa555d)
+
+
 ![Screenshot 2024-12-08 182751](https://github.com/user-attachments/assets/689e7c1f-692a-4bc9-a199-03b7bc0c170c)
