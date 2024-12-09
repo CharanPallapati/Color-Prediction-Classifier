@@ -22,7 +22,7 @@ body{
      color: black;
  }
  .b{
-     background-image:url('/static/OP.jpg');
+     background-image:url('/static/background.jpg');
      border: 2px solid rgb(31, 27, 27);
      width: 40%;
      border-radius:25px;
