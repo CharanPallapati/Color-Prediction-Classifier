@@ -5,7 +5,7 @@ app=Flask(__name__)
  
 @app.route('/',methods=['GET','POST'])
 def a():
-   return render_template("web.html")
+   return render_template("home.html")
  
 
 
@@ -19,7 +19,7 @@ def predict():
       with open("model",'rb') as f:
           mode=pickle.load(f)
       im=mode.predict([img])
-      return render_template("reweb.html",post=im)
+      return render_template("prediction.html",post=im)
    return redirect('/')  
 if __name__=="__main__":
    app.run(debug=True)
